@@ -8,7 +8,7 @@ export default meta => ({ children }) => <MDXProvider components={{
   ...theme.TemplateList,
 }}><>
   <Head>
-    <title>Linghao's Blog | {meta.title}</title>
+    <title>Blackstone's Blog | {meta.title}</title>
   </Head>
   <theme.Container>
     <theme.components.h1>{meta.title}</theme.components.h1>

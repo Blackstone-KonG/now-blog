@@ -5,14 +5,14 @@ import theme from '../theme'
 
 export default meta => ({ children }) => <MDXProvider components={theme.components}><>
   <Head>
-    <title>Linghao's Blog | {meta.title}</title>
+    <title>Blackstone's Blog | {meta.title}</title>
     <meta property="og:description" content={meta.description} />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Linghao Zhang" />
+    <meta name="twitter:title" content="nkgoym" />
     <meta name="twitter:description" content={meta.description} />    
   </Head>
   <theme.Container>
-    <theme.components.h1>Linghao Zhang</theme.components.h1>
+    <theme.components.h1>BlackStone KonG</theme.components.h1>
     <theme.Nav url={meta.url}/>
     <theme.Content>{children}</theme.Content>
     <theme.Footer/>
